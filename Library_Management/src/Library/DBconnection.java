@@ -11,7 +11,7 @@ public static Connection connect() {
 try {
 	String url="jdbc:mysql://localhost:3306/library_management";
 	String username="root";
-	String password="Keerthu@mysql";
+	String password="*****";
 	conn=DriverManager.getConnection(url, username, password);
 	//System.out.println("DB connected successfully");
 	
